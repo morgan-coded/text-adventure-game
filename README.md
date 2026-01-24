@@ -1,23 +1,22 @@
-# OS Simulators (Study.com projects)
+# Backyard Adventures Reservation System (Capstone Enhancement Candidate)
 
-This repo contains small OS-focused simulators written in Python:
-- Dynamic memory allocation (Best/First/Worst fit) with free-block coalescing
-- File management + memory interaction using linked allocation fragments
-- Real-time job scheduling simulator (RM/DM/EDF) using next-event simulation
+This repository is a capstone enhancement candidate based on a systems analysis and design case study for "Backyard Adventures," a small guided tour and water-sports rental company in Jacksonville, Florida.
 
-Each project includes:
-- Source code in /src
-- Any sample inputs in /data
-- The submitted write-ups in /docs
+The business problem: the company gets ad traffic, but bookings are not converting reliably due to a manual binder + spreadsheet workflow that causes double-booking risk, slow communication, and poor visibility into inventory status.
 
-## Run
+The proposed solution: a web-based reservation + inventory system with real-time availability, inventory locking, admin scheduling tools, automated confirmations/reminders, reporting, and a maintenance plan designed for seasonal spikes.
 
-```bash
-python src/memory_allocation_sim.py
-python src/file_memory_manager.py
-python src/realtime_scheduler.py
-```
+## What's in this repo
+- docs/CASE_STUDY_BackyardAdventures.md — business context + system overview
+- docs/REQUIREMENTS.md — functional + non-functional requirements and use cases
+- docs/DB_SCHEMA.md — proposed relational schema (tables/keys/indexes)
+- docs/TESTING_AND_ACCEPTANCE.md — testing strategy and UAT scenarios
+- docs/DEPLOYMENT_AND_METRICS.md — phased rollout + 30/60/90 day success metrics
+- docs/MAINTENANCE_AND_KNOWLEDGE.md — maintenance strategy + knowledge retention policy
+- docs/METHODOLOGY_RATIONALE.md — Agile vs Waterfall recommendation
 
-## Notes
+## Capstone enhancement direction (planned)
+Enhancement will focus on implementing the core booking workflow first (MVP), then iterating features (reporting, discounts, maintenance holds, admin workflow improvements) based on measurable KPIs and user feedback.
 
-These were originally created for coursework, then cleaned up and expanded for portfolio/capstone enhancement purposes.
+## References / Prior design work
+See the documents in /docs for the original analysis and design artifacts used as the basis for the enhancement plan.
