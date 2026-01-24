@@ -1,0 +1,15 @@
+# Real-Time Task Set Input File
+# Format: task_id, period, deadline, execution_time
+# Lines starting with # are comments
+#
+# Example task set for RM/DM/EDF scheduling simulation
+# TODO: Replace with actual task data from your coursework
+
+# Task 1: Period=10, Deadline=10, Execution=3
+1, 10, 10, 3
+
+# Task 2: Period=15, Deadline=15, Execution=4
+2, 15, 15, 4
+
+# Task 3: Period=20, Deadline=20, Execution=2
+3, 20, 20, 2
